@@ -162,7 +162,7 @@ async def process_audio(client, event, url, cookies_env_var=None):
                 name=None,
                 progress_bar_function=lambda done, total: progress_callback(done, total, chat_id)
             )
-            await client.send_file(chat_id, uploaded, caption=f"**{title}**\n\n**__Powered by skillwithgaurav__**")
+            await client.send_file(chat_id, uploaded, caption=f"**{title}**\n\n**__Powered by TAHAMOMIN__**")
             if prog:
                 await prog.delete()
         else:
