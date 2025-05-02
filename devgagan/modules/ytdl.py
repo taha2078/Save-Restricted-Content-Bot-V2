@@ -41,7 +41,7 @@ from mutagen.mp3 import MP3
 
 import subprocess
 
-def apply_text_watermark(input_video_path, output_video_path, watermark_text="Join @skillwithgaurav"):
+def apply_text_watermark(input_video_path, output_video_path, watermark_text="Join @TAHAMOMIN"):
     # Using ffmpeg with adaptive safe margin for both landscape and portrait
     cmd = [
         "ffmpeg", "-i", input_video_path,
